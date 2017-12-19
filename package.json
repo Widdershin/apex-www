@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.ts --css styles.css --live -- -p tsify",
+    "start": "budo index.ts --css styles.css --live '*.{css,html}' -- -p tsify -p browserify-hmr",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,7 +18,9 @@
     "xstream": "^11.1.0"
   },
   "devDependencies": {
+    "browserify-hmr": "^0.3.6",
     "budo": "^10.0.4",
+    "cycle-restart": "^0.2.2",
     "tsify": "^3.0.4",
     "typescript": "^2.6.2"
   }
