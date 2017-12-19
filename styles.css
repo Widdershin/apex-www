@@ -1,0 +1,27 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.payments {
+  margin: 10px;
+}
+
+.reward {
+  background: red;
+  padding: 2px;
+  font-size: larger;
+}
+
+.unlocked {
+  background: lime;
+}
+

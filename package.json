@@ -1,0 +1,25 @@
+{
+  "name": "apex-www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.ts --css styles.css --live -- -p tsify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cycle/dom": "^20.1.0",
+    "@cycle/http": "^14.8.0",
+    "@cycle/run": "^4.1.0",
+    "@cycle/time": "^0.10.1",
+    "xstream": "^11.1.0"
+  },
+  "devDependencies": {
+    "budo": "^10.0.4",
+    "tsify": "^3.0.4",
+    "typescript": "^2.6.2"
+  }
+}
